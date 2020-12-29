@@ -111,7 +111,7 @@ scoreboard:
     - ' {time}'
     - ''
     - ' &ewww.redezn.com'
-    ingame:	
+    ingame:
     - ''
     - ' Próximo Evento:'
     - '  &e{event}'
