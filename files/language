@@ -1,0 +1,127 @@
+# Skript feito por Kiberzn
+# Discord: a-zn#4375
+
+spawn:
+  broadcast: '&7{display} &6entrou neste lobby!'
+  hotbar:
+    warps: 'slot>2 : item>COMPASS : named>&aWarps &7(Clique direito) : lore>&7Jogue em outras warps! : execute>warps'
+    kits: 'slot>3 : item>NETHER_STAR : named>&aKits &7(Clique direito) : lore>&7Selecione um kit! : execute>kits'
+    shop: 'slot>5 : item>EMERALD : named>&aLoja &7(Clique direito) : lore>&7Compre kits para ficar mais\n&7forte! : execute>shop'
+    money-day: 'slot>6 : item>CHEST_MINECART : named>&aMoedas Diárias &7(Clique direito) : lore>&7Colete moedas suas diárias! : execute>moneyday'
+  chat:
+    color:
+      default: '&7'
+      custom: '&f'
+    format: '&7[&a{level}&7] {prefix}{player}{color}: {message}'
+  motd:
+    enabled: true
+    header: '&a&lZN &f- &7www.redezn.com'
+    footer: '&e&nKit PvP&e aberto para todos!'
+  tablist:
+    enabled: true
+    header: '\n&a&lREDE ZN\n    &fjogar.redezn.com\n '
+    footer: ' \n&bForúm: &fredezn.com/forum\n&b               Discord: &fredezn.com/discord               \n'
+game:
+  rewards:
+    coins-per-day: 1000
+    coins-per-kill: 50
+    coins-per-death: 25
+    exp-per-kill: 10
+scoreboard:
+  update-time: 1
+  titles:
+  - '&a&lSKY WARS'
+  - '&6&lS&a&lKY WARS'
+  - '&f&lS&6&lK&a&lY WARS'
+  - '&f&lSK&6&lY &a&lWARS'
+  - '&f&lSKY &6&lW&a&lARS'
+  - '&f&lSKY W&6&lA&a&lRS'
+  - '&f&lSKY WA&6&lR&a&lS'
+  - '&f&lSKY WAR&6&lS'
+  - '&f&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&f&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  - '&a&lSKY WARS'
+  lines:
+    lobby:
+    - ''
+    - ' Kills: &a{kills}'
+    - ' Mortes: &a{deaths}'
+    - ' Vitórias: &a{wins}'
+    - ' Assistências: &a{assist}'
+    - ''
+    - ' Moedas: &6{coins}'
+    - ' Cash: &6{cash}'
+    - ''
+    - ' &ewww.redezn.com'
+    waiting:
+    - ''
+    - ' Jogadores: &a{players}/{max_players}'
+    - ' Mapa: &a{map}'
+    - ''
+    - ' {time}'
+    - ''
+    - ' &ewww.redezn.com'
+    ingame:	
+    - ''
+    - ' Próximo Evento:'
+    - '  &e{event}'
+    - ''
+    - ' Restantes: &a{players}'
+    - ' Kills: &a{gamekills}'
+    - ''
+    - ' Mapa: &a{map}'
+    - ''
+    - ' &ewww.redezn.com'
+  replace:
+    waiting: 'Esperando...'
+    starting: 'Iniciando em &a{time}s'
